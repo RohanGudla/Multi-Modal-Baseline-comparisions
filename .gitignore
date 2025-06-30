@@ -1,0 +1,21 @@
+# Exclude video files (too large for repository)
+*.wmv
+*.mp4
+*.avi
+*.mov
+
+# Exclude virtual environment  
+ml_env/
+
+# Exclude original messy video directories
+Big Interview/Just Face/
+Genex/Just Respondent/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+.DS_Store
+Thumbs.db
