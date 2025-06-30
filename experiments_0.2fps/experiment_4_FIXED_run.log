@@ -1,0 +1,38 @@
+CUDA device found.
+🚀 EXPERIMENT 4: COMPLETE DOMAIN MAPPING (EMOTIONS↔BEHAVIORS)
+======================================================================
+💻 Device: cuda
+📊 Batch Size: 24 (multi-modal optimized)
+⚡ Automatic Mixed Precision: True
+🎯 FPS: 0.2 (standardized - every 5th frame)
+📈 Epochs: 20
+🧠 Model: SmallFastCNN + Multi-Modal Fusion Architecture
+🧠 Emotions → Behaviors: 14 → 33
+🎭 Behaviors → Emotions: 33 → 14
+📁 Output Directory: /home/tjeei/Multi Modal Collab/experiment_4/
+======================================================================
+✅ Domain mapping configuration loaded (14 emotions → 33 behaviors).
+🚀 Using optimized preprocessing approach...
+⚡️ Loading pre-processed data from /home/tjeei/Multi Modal Collab/preprocessed_data
+📊 Found 34 preprocessed participant files
+⚡ Using OptimizedMultiModalDataset
+📊 Input markers found: 14/14
+📊 Output markers found: 33/33
+📊 Dataset created with 7272 samples
+📊 Dataset: 5817 train, 1455 val samples
+🧠 Model parameters: 4,974,057
+📊 Calculating class weights for positive class optimization...
+🎯 Positive class rate: 0.284
+🎯 Average pos_weight: 4.31 (range: 1.00-10.00)
+ 📂 Resuming from checkpoint: /home/tjeei/Multi Modal Collab/experiment_4/checkpoints/multi_modal_checkpoint.pth
+🏋️ Training multi-modal model from epoch 20 on cuda...
+Traceback (most recent call last):
+  File "/home/tjeei/MultiModal Collab/experiment_4_multi_modal.py", line 930, in <module>
+    main()
+  File "/home/tjeei/MultiModal Collab/experiment_4_multi_modal.py", line 906, in main
+    results = train_multi_modal_model(model, train_loader, val_loader, CONFIG, DOMAIN_MAPPING_CONFIG["emotion_to_behavior"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tjeei/MultiModal Collab/experiment_4_multi_modal.py", line 813, in train_multi_modal_model
+    "final_exact_match_accuracy": exact_match_acc,
+                                  ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'exact_match_acc' where it is not associated with a value

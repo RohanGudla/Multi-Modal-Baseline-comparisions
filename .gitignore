@@ -1,3 +1,9 @@
+# Exclude large model files to stay within GitHub limits
+*.pth
+*.pth.tar
+*.npz
+*.pkl
+
 # Exclude video files (too large for repository)
 *.wmv
 *.mp4
@@ -6,6 +12,8 @@
 
 # Exclude virtual environment  
 ml_env/
+*_env/
+venv/
 
 # Exclude original messy video directories
 Big Interview/Just Face/
@@ -19,3 +27,12 @@ __pycache__/
 # Temporary files
 .DS_Store
 Thumbs.db
+
+# Keep essential files but exclude large data
+# Allow small CSV and JSON files
+!*.csv
+!*.json
+!*.txt
+!*.py
+!*.sh
+!*.md

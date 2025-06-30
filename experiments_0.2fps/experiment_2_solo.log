@@ -1,0 +1,37 @@
+CUDA device found.
+🚀 EXPERIMENT 2: MULTI-LABEL CLASSIFICATION
+======================================================================
+💻 Device: cuda
+📊 Batch Size: 32 (multi-label optimized)
+⚡ Automatic Mixed Precision: True
+🎯 FPS: 0.2 (standardized - every 5th frame)
+📈 Epochs: 20
+🧠 Model: SmallFastCNN + 47 Multi-label Heads
+⚙️ Dataloader Workers: 32
+📁 Output Directory: /home/tjeei/MultiModal Collab/experiment_2/
+======================================================================
+✅ 47 markers loaded for multi-label training.
+🚀 Using optimized preprocessing approach...
+⚡️ Loading pre-processed data from /home/tjeei/MultiModal Collab/preprocessed_data
+📊 Found 87 preprocessed participant files
+⚡ Using OptimizedMultiLabelDataset
+📊 Dataset: 12336 train, 3084 val samples
+🧠 Model parameters: 4,836,455
+ 📂 Resuming from checkpoint: /home/tjeei/MultiModal Collab/experiment_2/checkpoints/multi_label_checkpoint.pth
+🏋️ Training multi-label model from epoch 20 on cuda...
+
+💾 Saving best model outputs...
+💾 Saving model outputs for analysis...
+Saving outputs:   0%|          | 0/97 [00:00<?, ?it/s]Saving outputs:   1%|          | 1/97 [00:01<02:06,  1.31s/it]Saving outputs:  11%|█▏        | 11/97 [00:01<00:11,  7.63it/s]Saving outputs:  26%|██▌       | 25/97 [00:01<00:03, 19.78it/s]Saving outputs:  40%|████      | 39/97 [00:02<00:01, 33.63it/s]Saving outputs:  59%|█████▉    | 57/97 [00:02<00:00, 54.38it/s]Saving outputs:  80%|████████  | 78/97 [00:02<00:00, 80.45it/s]Saving outputs: 100%|██████████| 97/97 [00:02<00:00, 40.87it/s]
+✅ Model outputs saved to /home/tjeei/MultiModal Collab/model_outputs/experiment_2_outputs.npz
+   Shape: (3084, 47) (samples x markers)
+Traceback (most recent call last):
+  File "/home/tjeei/MultiModal Collab/experiment_2_multi_label.py", line 913, in <module>
+    main()
+  File "/home/tjeei/MultiModal Collab/experiment_2_multi_label.py", line 895, in main
+    results = train_multi_label_model(model, train_loader, val_loader, CONFIG, all_markers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tjeei/MultiModal Collab/experiment_2_multi_label.py", line 809, in train_multi_label_model
+    final_macro_f1 = macro_f1 
+                     ^^^^^^^^
+UnboundLocalError: cannot access local variable 'macro_f1' where it is not associated with a value

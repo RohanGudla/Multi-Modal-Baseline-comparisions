@@ -1,0 +1,16 @@
+CUDA device found.
+🚀 EXPERIMENT 1: INDIVIDUAL MARKER TRAINING
+======================================================================
+💻 Device: cuda
+📊 Batch Size: 64
+⚡ Automatic Mixed Precision: True
+🎯 FPS: 0.2 (every 5th frame)
+📈 Epochs: 12
+🧠 Model: SmallFastCNN (~300K parameters)
+⚙️ Dataloader Workers: 32
+📁 Output Directory: /home/tjeei/MultiModal Collab/experiment_1/
+======================================================================
+✅ 47 markers loaded.
+✅ 47 markers already completed.
+⏳ 0 markers remaining to train.
+🎉 All markers already completed!

@@ -1,0 +1,19 @@
+CUDA device found.
+🚀 EXPERIMENT 2: MULTI-LABEL CLASSIFICATION
+======================================================================
+💻 Device: cuda
+📊 Batch Size: 32 (multi-label optimized)
+⚡ Automatic Mixed Precision: True
+🎯 FPS: 0.2 (standardized - every 5th frame)
+📈 Epochs: 20
+🧠 Model: SmallFastCNN + 47 Multi-label Heads
+⚙️ Dataloader Workers: 32
+📁 Output Directory: /home/rohan/Multi Modal Collab/experiment_2/
+======================================================================
+Traceback (most recent call last):
+  File "/home/tjeei/MultiModal Collab/experiment_2_multi_label.py", line 913, in <module>
+    main()
+  File "/home/tjeei/MultiModal Collab/experiment_2_multi_label.py", line 838, in main
+    with open(markers_file, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tjeei/MultiModal Project/markers_47.txt'

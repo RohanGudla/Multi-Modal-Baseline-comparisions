@@ -1,0 +1,47 @@
+Anger
+Contempt
+Disgust
+Fear
+Joy
+Sadness
+Surprise
+Engagement
+Positive Valence
+Negative Valence
+Neutral Valence
+Sentimentality
+Confusion
+Neutral
+Attention
+Brow Furrow
+Brow Raise
+Cheek Raise
+Chin Raise
+Dimpler
+Eye Closure
+Eye Widen
+Inner Brow Raise
+Jaw Drop
+Lip Corner Depressor
+Lip Press
+Lip Pucker
+Lip Stretch
+Lip Suck
+Lip Tighten
+Mouth Open
+Nose Wrinkle
+Smile
+Smirk
+Upper Lip Raise
+Head Pointing Up
+Head Pointing Down
+Head Pointing Forward
+Head Turned Right
+Head Turned Left
+Head Turned Forward
+Head Tilted Left
+Head Tilted Right
+Head Not Tilted
+Head Leaning Forward
+Head Leaning Backward
+Lip Tuck

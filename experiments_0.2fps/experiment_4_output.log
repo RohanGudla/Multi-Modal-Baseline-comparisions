@@ -1,0 +1,21 @@
+CUDA device found.
+🚀 EXPERIMENT 4: COMPLETE DOMAIN MAPPING (EMOTIONS↔BEHAVIORS)
+======================================================================
+💻 Device: cuda
+📊 Batch Size: 24 (multi-modal optimized)
+⚡ Automatic Mixed Precision: True
+🎯 FPS: 0.2 (standardized - every 5th frame)
+📈 Epochs: 20
+🧠 Model: SmallFastCNN + Multi-Modal Fusion Architecture
+🧠 Emotions → Behaviors: 14 → 33
+🎭 Behaviors → Emotions: 33 → 14
+📁 Output Directory: /home/rohan/Multi Modal Collab/experiment_4/
+======================================================================
+✅ Domain mapping configuration loaded (14 emotions → 33 behaviors).
+Traceback (most recent call last):
+  File "/home/tjeei/MultiModal Collab/experiment_4_multi_modal.py", line 895, in <module>
+    main()
+  File "/home/tjeei/MultiModal Collab/experiment_4_multi_modal.py", line 805, in main
+    with open(markers_file, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tjeei/MultiModal Project/markers_47.txt'

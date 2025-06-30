@@ -1,0 +1,19 @@
+CUDA device found.
+🚀 EXPERIMENT 3: CROSS-MODAL PREDICTION
+======================================================================
+💻 Device: cuda
+📊 Batch Size: 32
+⚡ Automatic Mixed Precision: True
+🎯 FPS: 0.2 (standardized - every 5th frame)
+📈 Epochs: 15
+🧠 Model: SmallFastCNN + Cross-Modal Architecture
+⚙️ Emotion↔Behavior Pairs: 12
+📁 Output Directory: /home/rohan/Multi Modal Collab/experiment_3/
+======================================================================
+Traceback (most recent call last):
+  File "/home/tjeei/MultiModal Collab/experiment_3_cross_modal.py", line 1020, in <module>
+    main()
+  File "/home/tjeei/MultiModal Collab/experiment_3_cross_modal.py", line 906, in main
+    with open(markers_file, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tjeei/MultiModal Project/markers_47.txt'
