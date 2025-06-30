@@ -19,6 +19,7 @@ This repository provides baseline F1 performance metrics for automated behaviora
 | **Experiment 1** | Individual Markers | **0.9737** | Attention, Head Leaning Backward (0.9731) |
 | **Experiment 2** | Multi-Label | **0.7803** (Micro) | Macro F1: 0.5400 |
 | **Experiment 3** | Cross-Modal | **0.9292** | Joy ↔ Smile bidirectional prediction |
+| **Experiment 4** | Multi-Output | **~0.78** (Micro F1) | Domain mapping in progress/partial results |
 
 ### 1 FPS Performance (High Temporal Resolution)
 
